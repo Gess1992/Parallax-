@@ -1,0 +1,29 @@
+.container{
+  max-width: 960px;
+  margin: 0 auto;
+  background: #f9f9f9;
+  font-size: 24px;
+  padding: 25px;
+}
+
+.parallax{
+  background: url("1p.jpeg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+}
+.love{
+  background: url("2p.jpeg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height:500px;
+}
+.pic{
+  background: url("8p.jpeg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  height:500px;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
